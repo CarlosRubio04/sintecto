@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Raleway', sans-serif;
 }
 /*Estilos del cargador al iniciarl la pagina*/
 .loader {
@@ -14,6 +16,9 @@
 }
 .loader>img {
   max-width: 50px;
+}
+h1,h2,h3,h4 {
+  margin: 0;
 }
 /*Estilos del cargador al iniciarl la pagina*/
 
@@ -30,3 +35,27 @@
  transform: scale(1);
 }
 /*Carga de las imagenes*/
+
+/*Hero*/
+.hero {
+  padding: 40px 0;
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;  
+}
+.hero article {
+  padding-top: 10vh;
+}
+.form-wrapper {
+  background-color: #f9f9f9;
+}
+.form-herader {
+  background-color: #ffffff;
+  text-align: center;
+  color: #021a3a;
+  padding: 10px 0;
+}
+.form-content {
+  padding: 15px 20px;
+}
